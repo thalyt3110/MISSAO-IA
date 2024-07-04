@@ -1,8 +1,15 @@
-@import url(/styles/header.css);
 :root{
-    --cor-de-fundo:#EBECEE;
-    --branco: #FFFFFF;
+        --cor-fundo:#01080E;
+        --cor-primcipal: #0b0d20;
+        --cor-secundario: #212333;
+        --cor-destaque: #2BDEFD;
+        --cor-texto: #D7F9FF;
 }
 body{
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
